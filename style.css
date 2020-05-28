@@ -22,17 +22,29 @@ body{
   margin:16px;
   padding:32px;
 }
-
 .person{
-
+  display: flex;
+  align-items: flex-start;
 }
+
 .person__description{
   font-size: 16px;
   line-height: 22px;
-
+  margin:0;
 }
-special. 
-
+.person__description--with-margin {
+  margin-bottom: 18px;
+}
+.person__picture{
+  margin-right:22px;
+}
+.person__info{
+  margin-bottom: 24px;
+}
+.person__link{
+  color: #e20613;
+  text-decoration: none;
+}
 .person__name{
   font-size: 36px;
   margin:0px;
@@ -49,5 +61,7 @@ special.
 .special {
   color: #ed6d05;
   font-weight: normal;
+
+}
 
 }
